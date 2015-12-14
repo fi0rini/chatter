@@ -1,0 +1,45 @@
+html, body {
+    width:100%;
+}
+#chatter {
+    width:450px;
+    margin:0 auto;
+}
+h1 {
+    color:#555;
+    text-align: center;
+}
+/****** Footer.react.js ******/
+.footer {
+    color:#444;
+    text-align: center;
+    margin-top:50px;
+}
+
+/****** ChatBox - Message Section ******/
+.message {
+
+}
+section.message-section {
+    height:200px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-bottom:5px;
+}
+
+/****** InputArea.react.js ******/
+.controls {
+    float: right;
+}
+.controls::after {
+    clear:both;
+}
+.inputarea > textarea {
+    padding-top:7px;
+    height:38px;
+    resize:none;
+}
+.controls > button {
+    margin-top:5px;
+    margin-left:10px;
+}
